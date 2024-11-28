@@ -1,0 +1,85 @@
+.customer-more-detail{
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    animation-name: slideInto;
+    animation-duration: 1s;
+    
+    margin-top: 7rem;
+    
+}
+
+.work-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    animation-name: slideInto;
+    animation-duration: 1s;
+}
+
+.accept-button{
+    display: flex;
+    justify-content: space-around;
+    animation-name: slideInto;
+    animation-duration: 1s;
+   
+}
+
+.reject{
+    width: 136px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #EF1D33;
+    color: white;
+    animation-name: slideInto;
+    animation-duration: 1s;
+}
+
+.accept{
+    width: 136px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0DC964;
+    color: white;
+    animation-name: slideInto;
+    animation-duration: 1s;
+}
+
+.page-two-container{
+    height: 720px;
+    margin: 16px;
+    overflow: scroll;
+    overflow-x: hidden
+}
+
+@keyframes slideInto {
+    from{
+        transform:translateY(150px) ;
+    }
+    to{
+        transform:translateY(0px) ;
+    }
+}
+
+.reject:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    background-color: #fff;
+    border: 2px solid #EF1D33 ;
+    color: #EF1D33;
+    box-shadow: 2px 2px 8px 4px rgba(255, 112, 102, 0.1);
+}
+
+.accept:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    background-color: #fff;
+    border: 2px solid #0DC964 ;
+    color: #0DC964;
+    box-shadow: 2px 2px 8px 4px rgba(88, 255, 66, 0.1);
+}

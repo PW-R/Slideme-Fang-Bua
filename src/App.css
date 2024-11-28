@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+.app{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    
+   
+
+}
+.app-continer{
+    height: 874px;
+    width: 402px;
+   
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow: scroll;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+}
+
+/* .app-container{
+    height: 874px;
+    width: 402px;
+    border: none;
+    margin: auto;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    box-shadow: 2px 2px 8px 4px rgba(69, 119, 120, 0.18);
+  } */

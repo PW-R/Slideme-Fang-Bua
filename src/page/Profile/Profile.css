@@ -1,0 +1,97 @@
+.profile{
+    width: 402px;
+    height: 650px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 100px;
+    overflow-x: hidden;
+    overflow: scroll;
+}
+.carpro{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.profile-info1{
+    margin-top: -4rem;
+    margin-left: 8rem;
+    line-height: 0.8;
+}
+hr{
+    color: rgb(24, 209, 33);
+    height: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none; /* ลบเส้นขอบเดิม */
+    background-color: rgb(30, 147, 55); /* ใช้สีที่ต้องการ */
+}
+.profile-info2{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between; /* ทำให้คอลัมน์ห่างกันพอสมควร */
+    gap: 100px; /* เพิ่มช่องว่างระหว่างคอลัมน์ */
+    overflow-x: hidden;
+}
+.profile-info2-1, .profile-info2-2 {
+    width: 48%; 
+  }
+  
+  .profile-info2 p {
+    margin: 5px 0; /* เพิ่มระยะห่างระหว่างแต่ละบรรทัดของ <p> */
+  }
+ .profile-h5{
+    margin-left: 15px;
+  }
+  .profile-info3 {
+    display: flex;
+    flex-direction: column; /* วางรูปภาพในแนวตั้ง */
+    gap: 20px; /* เพิ่มระยะห่างระหว่างรูป */
+  }
+  .carin{
+    width: 368px ;
+    height: 180px;
+    margin-left: 1rem;
+    
+  }
+  .button-pro {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-pro:hover {
+    background-color: #45a049;
+  }
+  input {
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 14px;
+    width: 100px;
+    box-sizing: border-box;
+    overflow-wrap: break-word
+  }
+  .pro-head{
+    background-color: rgb(13, 201, 100);
+    width: 402px;
+    height: 128px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    box-shadow: 0px 5px 0px 0px rgb(196, 196, 196);
+    margin-top: -7.8rem;
+    }
+    .pro-head1{
+      justify-items: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+      margin-top: 2.5rem;
+      overflow-x: hidden;
+    }
+  
