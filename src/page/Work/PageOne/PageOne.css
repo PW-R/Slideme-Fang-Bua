@@ -1,0 +1,67 @@
+.customer-1 , .customer-2 , .customer-3 , .customer-4{
+    height: 220px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+   
+    
+}
+
+.customer-1{
+    animation-name: slideInto;
+    animation-duration: 1s;
+}
+
+.customer-2{
+    animation-name: slideInto;
+    animation-duration: 1.2s;
+}
+
+.customer-3{
+    animation-name: slideInto;
+    animation-duration: 1.4s;
+}
+
+.customer-4{
+    animation-name: slideInto;
+    animation-duration: 1.6s;
+}
+
+.page-one-container{
+    height: 650px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes slideInto {
+    from{
+        transform:translateY(150px) ;
+    }
+    to{
+        transform:translateY(0px) ;
+    }
+}
+
+.customer-1:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    background-color: #9dddad;
+    color: #3f6597;
+}
+
+.page-title{
+    margin-left: 6rem;
+    margin-top: -4rem;
+}
+
+.mb-2text-muted{
+    line-height: 3;
+}
+
+  

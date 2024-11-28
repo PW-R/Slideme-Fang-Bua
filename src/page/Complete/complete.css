@@ -1,0 +1,96 @@
+.customer-profile {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 60px 200px auto;
+  gap: 0.5rem;
+}
+.customer-workDetail {
+  height: 100px;
+  position: relative;
+  text-align: left;
+  padding: 0.5rem;
+  margin: 1rem;
+  margin-left: 10%;
+}
+
+.customer-location {
+  height: 120px;
+  display: grid;
+  grid-template-columns: (2, 1fr);
+}
+
+.customer-location span{
+  display: flex;
+  align-items: center; 
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  color: #004AAD;
+}
+.customer-photo {
+  width: 332px;
+  height: 400px;
+  background-color: #eeee;
+  margin-top: 4rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.customer-photo button {
+  border: none;
+  background-color: #b7b7b7;
+  border-radius: 10px;
+  margin-left: 7rem;
+}
+
+.customer-send {
+  width: 138px;
+  height: 40px;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #0dc964;
+  color: white;
+}
+
+.customer-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.customer-del {
+  width: 138px;
+  height: 40px;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #ef1d33;
+  color: white;
+}
+
+.complete-container {
+  height: 680px;
+  margin: 2.5rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.customer-send:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.5s;
+  background-color: #fff;
+  border: 2px solid #0dc964;
+  color: #0dc964;
+  box-shadow: 2px 2px 8px 4px rgba(88, 255, 66, 0.1);
+}
+
+.customer-del:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.5s;
+  background-color: #fff;
+  border: 2px solid #ef1d33;
+  color: #ef1d33;
+  box-shadow: 2px 2px 8px 4px rgba(255, 112, 102, 0.1);
+}

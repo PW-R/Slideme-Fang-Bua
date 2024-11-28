@@ -1,0 +1,53 @@
+.Load-container{
+    height: 680px;
+    margin: 2.5rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    animation-name: slideInto;
+    animation-duration: 1s;
+}
+
+.loading-text{
+    border: none;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    padding: 10%;  
+}
+
+.loading-btn{
+    width: 136px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #0DC964;
+    color: white;
+    margin-left: 3.2rem;
+}
+
+.loading-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.loading-btn:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    background-color: #fff;
+    border: 2px solid #0DC964 ;
+    color: #0DC964;
+    box-shadow: 2px 2px 8px 4px rgba(88, 255, 66, 0.1);
+}
+
+@keyframes slideInto {
+    from{
+        transform:translateY(150px) ;
+    }
+    to{
+        transform:translateY(0px) ;
+    }
+}

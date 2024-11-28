@@ -1,0 +1,78 @@
+.notification{
+    width: 402px;
+    height: 650px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 100px;
+    overflow-x: hidden;
+    overflow: scroll;
+    
+}
+
+ 
+  .notification-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    animation: slideUp 0.8s ease-out;
+    margin-bottom: 1rem; /* เพิ่มระยะห่างระหว่างรายการ */
+    
+  }
+  
+  .notification-icon {
+    width: 66px;
+    height: 64px;
+    margin-right: 20px;
+  }
+  
+.notification-message {
+    margin: 0;
+    font-size: 1rem;
+  }
+  /* กำหนด Animation สไลด์ขึ้น */
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.noti-head{
+  background-color: rgb(13, 201, 100);
+  width: 402px;
+  height: 128px;
+  border-radius: 0px 0px 20px 20px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  box-shadow: 0px 5px 0px 0px rgb(196, 196, 196);
+  margin-top: -7.8rem;
+  }
+  .noti-head1{
+    justify-items: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+    margin-top: 2.5rem;
+    overflow-x: hidden;
+  }
+
+
+
+
+
+
+  
+  
+  

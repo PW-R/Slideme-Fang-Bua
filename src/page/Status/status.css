@@ -1,0 +1,60 @@
+.mapPic{
+    height: 40vh;
+    width: 350px;
+    margin-left: 0.4rem;
+    position: relative;
+    overflow: hidden;
+    flex-grow: 1;
+    background-color: darkgray;
+    margin-top: 100px;
+   
+}
+
+.status-progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{ display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact button{
+    height: 65px;
+    width: 65px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #60B876;
+    color: #377B48;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.status-container{
+    height: 717px;
+    margin: 16px;
+    overflow: scroll;
+    overflow-x: hidden
+   
+}
+
+.contact button:hover{ 
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    background-color: #fff;
+    border: 2px solid #0DC964 ;
+    color: #0DC964;
+    box-shadow: 2px 2px 8px 4px rgba(88, 255, 66, 0.1);
+}
+
+@import url("~leaflet/dist/leaflet.css");
+.leaflet-container {
+  height: 100%;
+  width: 100;
+}

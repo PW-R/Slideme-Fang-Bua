@@ -1,0 +1,159 @@
+.customer-1 , .customer-2 , .customer-3 , .customer-4{
+    height: 100px;
+    margin-top: 1.5rem;
+    border-radius: 15px;
+    
+}
+
+.customer-1{
+    animation-name: slideInto;
+    animation-duration: 1s;
+}
+
+.customer-2{
+    animation-name: slideInto;
+    animation-duration: 1.2s;
+}
+
+.customer-3{
+    animation-name: slideInto;
+    animation-duration: 1.4s;
+}
+
+.customer-4{
+    animation-name: slideInto;
+    animation-duration: 1.6s;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes slideInto {
+    from{
+        transform:translateY(100px) ;
+    }
+    to{
+        transform:translateY(0px) ;
+    }
+}
+
+.customer-1:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    color: #096c30;
+}
+
+.customer-2:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    color: #096c30;
+}
+
+.customer-3:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    color: #096c30;
+}
+
+.customer-4:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+    transition: 0.5s;
+    color: #096c30;
+}
+/* คอนเทนเนอร์หลัก */
+.page-one-container {
+    margin: 0 auto; /* จัดกึ่งกลาง */
+    width: 402px;
+    height: 650px;
+    margin-top: 100px;
+    overflow-x: hidden;
+    overflow: scroll;
+   
+}
+
+/* คอนเทนเนอร์สำหรับข้อมูลลูกค้า */
+.customer-detail {
+    display: flex;
+    flex-direction: column; /* เรียงข้อมูลแนวตั้ง */
+    z-index: -1;
+}
+
+/* การ์ดลูกค้า */
+.customer-1 {
+    width: 100%; /* เต็มความกว้างของคอนเทนเนอร์ */
+    border: none;
+    background-color: #ffffff; /* สีพื้นหลัง */
+    border-radius: 5px; /* ขอบมน */
+}
+
+
+
+/* รูปภาพในส่วน header */
+.customer-1 .customer-header img {
+    width: 80px;
+    margin-right: 1rem; /* เว้นระยะทางขวาของรูป */
+}
+
+/* ชื่อใน Card */
+.customer-1 .card-title {
+    font-size: 1.25rem; 
+    font-weight: bold; 
+    margin-bottom: 0.5rem;
+
+}
+
+/* ข้อมูลรองของลูกค้า */
+.customer-1 .card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d; 
+    margin-top: -1rem; 
+    margin-left: 6rem;
+    line-height: 3;
+}
+
+/* ข้อความใน Card */
+.customer-1 .card-text {
+    width: 240px;
+    height: 95px;
+    border: 2px solid #6fbb84; 
+    border-radius: 15px;
+    padding: 0.5rem; 
+    font-size: 0.9rem;
+    margin: 0.5rem 6rem; 
+}
+
+/* ข้อความ icon */
+.customer-1 .card-text span {
+    display: block; /* จัดแสดงแบบบรรทัดใหม่ */
+    margin-bottom: -1rem; 
+    color: #333; 
+}
+.list-head{
+    background-color: rgb(13, 201, 100);
+    width: 402px;
+    height: 128px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    box-shadow: 0px 5px 0px 0px rgb(196, 196, 196);
+    margin-top: -7.8rem;
+    }
+    .list-head1{
+      justify-items: center; 
+      margin-top: 2.5rem;
+      overflow-x: hidden;
+    }
+    .list-title1{
+        margin-left: 6rem;
+        margin-top: -4rem;
+    }
+    

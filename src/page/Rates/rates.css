@@ -1,0 +1,62 @@
+.rates-content {
+  width: 90%;
+  max-width: 400px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.2rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.price-one,.price-two,.price-three {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.btnAccept {
+  width: 136px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0dc964;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.price-one {
+  background-color: #eeeeee;
+}
+
+input {
+  background-color: #eeeeee;
+}
+
+.rates-container {
+  height: 650px;
+  margin: 16px;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 5rem;
+  padding: 10px;
+  
+}
+
+.btnAccept:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: 0.5s;
+  background-color: #fff;
+  border: 2px solid #0dc964;
+  color: #0dc964;
+  box-shadow: 2px 2px 8px 4px rgba(88, 255, 66, 0.1);
+}
