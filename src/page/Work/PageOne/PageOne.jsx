@@ -32,7 +32,7 @@ function pageOne() {
               
               className="customer-1"
             >
-              <Card.Body className="card-body" >
+              <Card.Body className="card-body" style={{ marginTop: "2rem" }} >
                 <Image
                   src="src/pic/Group 20.png"
                   
