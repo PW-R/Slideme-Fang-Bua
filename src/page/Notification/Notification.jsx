@@ -1,6 +1,7 @@
 import './Notification.css';
 import { useEffect, useState } from 'react';
 import { fetchNoti } from '../data/Notifications';
+import { Image } from "react-bootstrap";
 
 
 function Notification() {
