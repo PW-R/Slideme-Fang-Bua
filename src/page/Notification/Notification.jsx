@@ -29,7 +29,8 @@ function Notification() {
         <div className="notification-list">
   {notis.map((noti) => (
     <div className="notification-item slide-up" key={noti.id}>
-      <img src={noti.notip} alt="" className="notification-icon" />
+      <img src={src/pic/Group173.png} alt="" className="notification-icon" />
+     <img src={src/pic/Group174.png} alt="" className="notification-icon" />
       <div>
         <p className="notification-message">{noti.notim}</p>
         <small className="notification-time">{noti.notit}</small>
