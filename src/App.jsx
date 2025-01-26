@@ -26,6 +26,8 @@ import Complete from "./page/Complete/Complete";
 import Loading from "./page/Loading/Loading";
 import Check from "./page/check/Check";
 
+// test
+
 const intTab = 'home'
 function App() {
   const [tab, setTab] = useState('');
